@@ -1,0 +1,4 @@
+{% extends "base.html" %}{% block title %}Dashboard{% endblock %}{% block content %}
+<div class="page-head"><div><div class="eyebrow">ISSUER CONSOLE</div><h1>Certificate dashboard</h1><p class="muted">Manage issued credentials and review their status.</p></div><a class="btn primary" href="{{ url_for('issue') }}">＋ Issue certificate</a></div>
+<section class="panel table-wrap"><table><thead><tr><th>Certificate ID</th><th>Signed record</th><th>Status</th><th>Created</th><th></th></tr></thead><tbody>{% for c in certs %}<tr><td><code>{{ c.id }}</code></td><td>{{ c.payload_json|tojson|safe }}</td><td><span class="pill {{ c.status }}">{{ c.status }}</span></td><td>{{ c.created_at }}</td><td><a href="{{ url_for('certificate', cert_id=c.id) }}">View →</a></td></tr>{% else %}<tr><td colspan="5" class="empty">No certificates yet. Issue your first certificate.</td></tr>{% endfor %}</tbody></table></section>
+{% endblock %}
