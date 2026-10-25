@@ -48,7 +48,7 @@ python -m pip --version
 Replace `YOUR_USERNAME` with your GitHub username.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/SecureCert-Digital-Certificate-Verification.git
+git clone https://github.com/musafirunnisabegumsyed/SecureCert-Digital-Certificate-Verification.git
 cd SecureCert-Digital-Certificate-Verification
 ```
 
