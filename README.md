@@ -181,5 +181,5 @@ SecureCert is an educational project developed to demonstrate digital signatures
 
 ## Authors
 
--Syed Musafirunnisa Begum
--Parvathy Vinod Kumar
+-**Syed Musafirunnisa Begum
+-**Parvathy Vinod Kumar
