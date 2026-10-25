@@ -179,6 +179,7 @@ The exact structure may vary depending on the version of the project in your rep
 
 SecureCert is an educational project developed to demonstrate digital signatures, public-key cryptography, certificate verification, and tamper detection. It should not be considered a production-ready certificate authority without additional security review.
 
-## Author
+## Authors
 
-Developed as an academic project to explore secure digital certificate management and verification.
+Syed Musafirunnisa Begum
+Parvathy Vinod Kumar
